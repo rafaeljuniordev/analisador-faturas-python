@@ -36,12 +36,12 @@ def exibir_relatorio(nome_cliente, valor_fatura, status_fatura, classificacao, s
 clientes = []
 valores_faturas = []
 status_faturas = []
-quantidade_cadastros = int(input('Quantas faturas deseja cadastrar?'))
+quantidade_cadastros = int(input('Quantas faturas deseja cadastrar? '))
 
 for posicao in range(quantidade_cadastros):
-    nome_cliente = input('Nome do cliente:')
-    valor_fatura = int(input('Digite o valor da sua fatura:'))
-    status_fatura = input('Digite o status da sua fatura:')
+    nome_cliente = input('Nome do cliente: ')
+    valor_fatura = int(input('Digite o valor da sua fatura: '))
+    status_fatura = input('Digite o status da sua fatura: ')
 
     clientes.append(nome_cliente)
     valores_faturas.append(valor_fatura)
@@ -76,7 +76,7 @@ valor_total = sum(valores_faturas)
 media_faturas = valor_total / quantidade_faturas
 
 print('=== RESUMO GERAL DAS FATURAS ===')
-print('Quantidade de faturas:',quantidade_faturas)
+print('Quantidade de faturas:', quantidade_faturas)
 print('Valor total:', valor_total)
 print('Média das faturas:', media_faturas)
 print('Faturas atrasadas:', quantidade_atrasadas)
