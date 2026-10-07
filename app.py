@@ -75,7 +75,7 @@ quantidade_faturas = len(valores_faturas)
 valor_total = sum(valores_faturas)
 media_faturas = valor_total / quantidade_faturas
 
-print('=== PAINEL GERAL DE FATURAS ===')
+print('=== RESUMO GERAL DAS FATURAS ===')
 print('Quantidade de faturas:',quantidade_faturas)
 print('Valor total:', valor_total)
 print('Média das faturas:', media_faturas)
