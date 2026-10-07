@@ -36,9 +36,9 @@ def exibir_relatorio(nome_cliente, valor_fatura, status_fatura, classificacao, s
 clientes = []
 valores_faturas = []
 status_faturas = []
+quantidade_cadastros = int(input('Quantas faturas deseja cadastrar?'))
 
-
-for posicao in range(3):
+for posicao in range(quantidade_cadastros):
     nome_cliente = input('Nome do cliente:')
     valor_fatura = int(input('Digite o valor da sua fatura:'))
     status_fatura = input('Digite o status da sua fatura:')
